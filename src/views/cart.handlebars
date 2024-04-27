@@ -1,0 +1,15 @@
+{{>navbar}}
+
+<h1 class="text-center m-5">Cart</h1>
+
+<p id="cartId" hidden>{{req.user.user.cartId}}</p>
+
+<div style="display: flex; flex-direction: column; justify-content: center; align-items: center;">
+    {{>card cart}}
+</div>
+
+{{>footer}}
+
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+<script src="https://cdn.socket.io/4.7.3/socket.io.min.js"></script>
+<script src="/static/js/cart.js"></script>

@@ -1,0 +1,81 @@
+<div style="display: flex; justify-content: center; flex-direction: row">
+    <form id="form">
+        <div class="input-group input-group-sm">
+            <span class="input-group-text" id="inputGroup-sizing-sm">Limit</span>
+            <input type="number" class="form-control me-1" id="limit" value="{{result.limit}}">
+            <span class="input-group-text ms-1" id="inputGroup-sizing-sm">Page</span>
+            <input type="number" class="form-control" id="page" value="{{result.page}}">
+        </div>
+    </form>
+</div>
+
+<div style="display: flex; justify-content: center;" class="mt-2">
+    <div style="width: 250px;">
+        <select class="form-select form-select-sm mb-3" aria-label="Large select example" id="selectSort">
+            <option selected>Select product order by price</option>
+            <option value="undefined">Undefined</option>
+            <option value="desc">Descending</option>
+            <option value="asc">Ascending</option>
+        </select>
+    </div>
+</div>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th scope="col">Image</th>
+            <th scope="col">Category</th>
+            <th scope="col">Title</th>
+            <th scope="col">Description</th>
+            <th scope="col">Price</th>
+            <th scope="col">Stock</th>
+            <th scope="col">Options</th>
+        </tr>
+    </thead>
+    <tbody class="table-group-divider">
+        {{#each result.payload}}
+        </tr>
+        <td>
+            {{#if thumbnail}}
+                <img src={{this.thumbnail}} alt="img - {{this.thumbnail}}" width="50px">
+            {{else}}
+                <img src="https://i.ibb.co/zsQdBNc/200x200.gif" alt="img - no img" width="50px">
+            {{/if}}
+        </td>
+        <td>{{this.category}}</td>
+        <td>{{this.title}}</td>
+        <td>{{this.description}}</td>
+        <td>{{this.price}}U$D</td>
+        <td>{{this.stock}}</td>
+        <td>
+            <div id="add" style="display: flex; justify-content: space-evenly;">
+                <a class="btn btn-primary" href="/products/{{id}}" role="button">Info</a>
+                <button id={{this.id}} class="btn btn-success add">Add</button>
+            </div>
+        </td>
+        </tr>
+        {{/each}}
+    </tbody>
+</table>
+
+<div style="display: flex; justify-content: center;">
+    <div class="ms-5 mb-5">
+        {{#if result.hasPrevPage}}
+        <a class="ms-2" href={{result.prevLink}}>previus</a>
+        {{/if}}
+
+        {{#if result.hasPrevPage}}
+        <a class="ms-2" href={{result.prevLink}}>{{result.prevPage}}</a>
+        {{/if}}
+
+        <a class="ms-2" href={{result.nextLink}}>{{result.page}}</a>
+
+        {{#if result.hasNextPage}}
+        <a class="ms-2" href={{result.nextLink}}>{{result.nextPage}}</a>
+        {{/if}}
+
+        {{#if result.hasNextPage}}
+        <a class="ms-2" href={{result.nextLink}}>next</a>
+        {{/if}}
+    </div>
+</div>

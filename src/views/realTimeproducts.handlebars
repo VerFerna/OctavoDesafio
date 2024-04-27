@@ -1,0 +1,22 @@
+{{>navbar}}
+
+<h1 class="text-center m-5">Upload product</h1>
+
+<div style="display: flex; justify-content: center; padding: 0px 100px">
+    <div style="display: flex; flex-direction: column; padding: 10px 70px; width: 25%;">
+        <h2 class="text-center m-3">Add Product</h2>
+        {{>form-create}}
+        <hr>
+        <h2 class="text-center m-3">Delete Product</h2>
+        {{>form-delete}}
+    </div>
+    <div style="width: 75%;">
+        {{>cards}}
+    </div>
+</div>
+
+{{>footer}}
+
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+<script src="https://cdn.socket.io/4.7.3/socket.io.min.js"></script>
+<script src="/static/js/main.js"></script>

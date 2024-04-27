@@ -1,0 +1,224 @@
+[
+  {
+    "id": 1,
+    "user": "Javier",
+    "message": "Hola, como estas?",
+    "hour": "13:27"
+  },
+  {
+    "id": 2,
+    "user": "Parzival",
+    "message": "Todo bien, vos que tal?",
+    "hour": "13:27"
+  },
+  {
+    "id": 3,
+    "user": "Javier",
+    "message": "Aqui, probando el scrollbar del chat",
+    "hour": "13:27"
+  },
+  {
+    "id": 4,
+    "user": "Parzival",
+    "message": "Y que problema tenes?",
+    "hour": "13:27"
+  },
+  {
+    "id": 5,
+    "user": "Javier",
+    "message": "Esta medio medio, mira escribo yo y no sigue bajando",
+    "hour": "13:28"
+  },
+  {
+    "id": 6,
+    "user": "Parzival",
+    "message": "Ahhh, tenes razon, cuando escribimos el scrollbnar queda clavado a la altura previa a escribir",
+    "hour": "13:28"
+  },
+  {
+    "id": 7,
+    "user": "Javier",
+    "message": "Eso mismo, asi que aun nose",
+    "hour": "13:28"
+  },
+  {
+    "id": 8,
+    "user": "Javier",
+    "message": "Pude hacer que el chat cuando se cargue, el scrollbar este abajo de inicio",
+    "hour": "13:29"
+  },
+  {
+    "id": 9,
+    "user": "Javier",
+    "message": "Ahora puse para que la hora salga abajo a la derecha, veremos",
+    "hour": "13:33"
+  },
+  {
+    "id": 10,
+    "user": "Parzival",
+    "message": "Te falta cambiar en chat.js cuando se cargue un nuevo mensaje que haga lo mismo",
+    "hour": "13:33"
+  },
+  {
+    "id": 11,
+    "user": "Javier",
+    "message": "Pruebo ahora",
+    "hour": "13:36"
+  },
+  {
+    "id": 12,
+    "user": "Javier",
+    "message": "Ahora",
+    "hour": "13:36"
+  },
+  {
+    "id": 13,
+    "user": "Parzival",
+    "message": "Mmm",
+    "hour": "13:36"
+  },
+  {
+    "id": 14,
+    "user": "Parzival",
+    "message": "No no",
+    "hour": "13:37"
+  },
+  {
+    "id": 15,
+    "user": "Javier",
+    "message": "Volvi",
+    "hour": "13:37"
+  },
+  {
+    "id": 16,
+    "user": "A",
+    "message": "a",
+    "hour": "13:37"
+  },
+  {
+    "id": 17,
+    "user": "Javier",
+    "message": "A escribio a",
+    "hour": "13:38"
+  },
+  {
+    "id": 18,
+    "user": "Parzival",
+    "message": "Ahora si, me aparece la hora abajo a la derecha",
+    "hour": "13:38"
+  },
+  {
+    "id": 19,
+    "user": "Javier",
+    "message": "Perfecto",
+    "hour": "13:38"
+  },
+  {
+    "id": 20,
+    "user": "Parzival",
+    "message": "Que pasa si escribo un mensaje muy largo: aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+    "hour": "13:39"
+  },
+  {
+    "id": 21,
+    "user": "Javier",
+    "message": "Perfecto, se mantiene",
+    "hour": "13:39"
+  },
+  {
+    "id": 22,
+    "user": "Parzival",
+    "message": "Tremendo Titan",
+    "hour": "13:39"
+  },
+  {
+    "id": 23,
+    "user": "Javier",
+    "message": "Efectivo, eficaz, efervescente.",
+    "hour": "13:39"
+  },
+  {
+    "id": 24,
+    "user": "Parzival",
+    "message": "Jajaja",
+    "hour": "13:40"
+  },
+  {
+    "id": 25,
+    "user": "Javier",
+    "message": "Por ultimo, dejo el mensaje número 25, [música de subir de nivel final fantasy]",
+    "hour": "13:41"
+  },
+  {
+    "id": 26,
+    "user": "Javier",
+    "message": "Pruebas",
+    "hour": "9:01"
+  },
+  {
+    "id": 27,
+    "user": "Parzival",
+    "message": "Pruebas",
+    "hour": "9:01"
+  },
+  {
+    "id": 28,
+    "user": "Javier",
+    "message": "Todo OK",
+    "hour": "9:01"
+  },
+  {
+    "id": 29,
+    "user": "Parzival",
+    "message": "Todo OK",
+    "hour": "9:01"
+  },
+  {
+    "id": 30,
+    "user": "Javier",
+    "message": "Otra prueba",
+    "hour": "9:05"
+  },
+  {
+    "id": 31,
+    "user": "Parzival",
+    "message": "Otra prueba",
+    "hour": "9:05"
+  },
+  {
+    "id": 32,
+    "user": "Javier",
+    "message": "Todo OK",
+    "hour": "9:05"
+  },
+  {
+    "id": 33,
+    "user": "Parzival",
+    "message": "Todo OK",
+    "hour": "9:05"
+  },
+  {
+    "id": 34,
+    "user": "Javier",
+    "message": "Funciona?",
+    "hour": "12:19"
+  },
+  {
+    "id": 35,
+    "user": "Parzival",
+    "message": "Si si",
+    "hour": "12:19"
+  },
+  {
+    "id": 36,
+    "user": "Javier",
+    "message": "Funciona?",
+    "hour": "23:28"
+  },
+  {
+    "id": 37,
+    "user": "Parzival",
+    "message": "Obvio titan",
+    "hour": "23:29"
+  }
+]

@@ -1,0 +1,47 @@
+<div style="display: flex;">
+    <div style="margin-right: 150px;">
+        {{#if thumbnail}}
+        <img src="https://i.ibb.co/zsQdBNc/200x200.gif" alt="img - no img">
+        {{else}}
+        <img src={{thumbnail}} width="200px" alt="img - {{thumbnail}}">
+        {{/if}}
+    </div>
+    <div style="display: flex; flex-direction: column; margin-left: 150px">
+        <div>
+            <p>{{category}} - {{description}}</p>
+        </div>
+        <div>
+            <p>Price {{price}}U$D</p>
+        </div>
+        <div>
+            <p class="m-0">In stock {{stock}}</p>
+            <select id="stockSelect">
+                <option value="">Quantity</option>
+                {{#each options}}
+                <option value="{{this}}">{{this}}</option>
+                {{/each}}
+            </select>
+        </div>
+    </div>
+</div>
+<div id="add" class="m-5">
+    <button id={{id}} class="btn btn-primary btn-lg add">Add</button>
+</div>
+
+<script>
+    const stock = {{ stock }}
+
+    let optionsData = { options: [] }
+    for (let i = 1; i <= stock; i++) {
+        optionsData.options.push(i);
+    }
+
+    const stockSelect = document.getElementById('stockSelect');
+
+    optionsData.options.forEach(function (option) {
+        let optionElement = document.createElement('option');
+        optionElement.value = option;
+        optionElement.textContent = option;
+        stockSelect.appendChild(optionElement);
+    });
+</script>

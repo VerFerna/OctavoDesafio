@@ -1,0 +1,222 @@
+[
+  {
+    "id": 1,
+    "title": "AMD Ryzen 5 5600X",
+    "description": "AMD CPU manufacturer",
+    "price": 299.99,
+    "thumbnail": "https://picsum.photos/200",
+    "code": "AMD5600X",
+    "stock": 50,
+    "category": "CPU",
+    "status": true
+  },
+  {
+    "id": 2,
+    "title": "NVIDIA GeForce RTX 3080",
+    "description": "NVIDIA GPU manufacturer",
+    "price": 699.99,
+    "thumbnail": "https://picsum.photos/200",
+    "code": "RTX3080",
+    "stock": 30,
+    "category": "GPU",
+    "status": true
+  },
+  {
+    "id": 3,
+    "title": "Corsair Vengeance LPX 16GB",
+    "description": "Corsair RAM manufacturer",
+    "price": 89.99,
+    "thumbnail": "https://picsum.photos/200",
+    "code": "VENGEANCE16GB",
+    "stock": 80,
+    "category": "RAM",
+    "status": true
+  },
+  {
+    "id": 4,
+    "title": "ASUS ROG Strix B550-F Gaming",
+    "description": "ASUS MOTHER manufacturer",
+    "price": 179.99,
+    "thumbnail": "https://picsum.photos/200",
+    "code": "ROGSTRIXB550F",
+    "stock": 40,
+    "category": "MOTHER",
+    "status": true
+  },
+  {
+    "id": 5,
+    "title": "EVGA SuperNOVA 850 G5",
+    "description": "EVGA PSU manufacturer",
+    "price": 149.99,
+    "thumbnail": "https://picsum.photos/200",
+    "code": "SUPERNOVA850G5",
+    "stock": 25,
+    "category": "PSU",
+    "status": true
+  },
+  {
+    "id": 6,
+    "title": "Intel Core i9-12900K",
+    "description": "Intel CPU manufacturer",
+    "price": 529.99,
+    "thumbnail": "https://picsum.photos/200",
+    "code": "COREI912900K",
+    "stock": 60,
+    "category": "CPU",
+    "status": true
+  },
+  {
+    "id": 7,
+    "title": "AMD Radeon RX 6900 XT",
+    "description": "AMD GPU manufacturer",
+    "price": 999.99,
+    "thumbnail": "https://picsum.photos/200",
+    "code": "RX6900XT",
+    "stock": 20,
+    "category": "GPU",
+    "status": true
+  },
+  {
+    "id": 8,
+    "title": "G.Skill Trident Z RGB 32GB",
+    "description": "G.Skill RAM manufacturer",
+    "price": 179.99,
+    "thumbnail": "https://picsum.photos/200",
+    "code": "TRIDENTZRGB32GB",
+    "stock": 70,
+    "category": "RAM",
+    "status": true
+  },
+  {
+    "id": 9,
+    "title": "MSI MAG B560M Bazooka",
+    "description": "MSI MOTHER manufacturer",
+    "price": 99.99,
+    "thumbnail": "https://picsum.photos/200",
+    "code": "MAGB560MBAZOOKA",
+    "stock": 35,
+    "category": "MOTHER",
+    "status": true
+  },
+  {
+    "id": 10,
+    "title": "Seasonic Focus GX-750",
+    "description": "Seasonic PSU manufacturer",
+    "price": 129.99,
+    "thumbnail": "https://picsum.photos/200",
+    "code": "FOCUSGX750",
+    "stock": 45,
+    "category": "PSU",
+    "status": true
+  },
+  {
+    "id": 11,
+    "title": "AMD Ryzen 7 5800X",
+    "description": "AMD CPU manufacturer",
+    "price": 449.99,
+    "thumbnail": "https://picsum.photos/200",
+    "code": "AMD5800X",
+    "stock": 55,
+    "category": "CPU",
+    "status": true
+  },
+  {
+    "id": 12,
+    "title": "NVIDIA GeForce RTX 3090",
+    "description": "NVIDIA GPU manufacturer",
+    "price": 1499.99,
+    "thumbnail": "https://picsum.photos/200",
+    "code": "RTX3090",
+    "stock": 15,
+    "category": "GPU",
+    "status": true
+  },
+  {
+    "id": 13,
+    "title": "Crucial Ballistix 32GB",
+    "description": "Crucial RAM manufacturer",
+    "price": 129.99,
+    "thumbnail": "https://picsum.photos/200",
+    "code": "BALLISTIX32GB",
+    "stock": 65,
+    "category": "RAM",
+    "status": true
+  },
+  {
+    "id": 14,
+    "title": "Gigabyte B550 AORUS Elite",
+    "description": "Gigabyte MOTHER manufacturer",
+    "price": 129.99,
+    "thumbnail": "https://picsum.photos/200",
+    "code": "B550AORUSELITE",
+    "stock": 100,
+    "category": "MOTHER",
+    "status": true
+  },
+  {
+    "id": 15,
+    "title": "Corsair RM850x",
+    "description": "Corsair PSU manufacturer",
+    "price": 139.99,
+    "thumbnail": "https://picsum.photos/200",
+    "code": "RM850X",
+    "stock": 30,
+    "category": "PSU",
+    "status": true
+  },
+  {
+    "id": 16,
+    "title": "Intel Core i7-12700K",
+    "description": "Intel CPU manufacturer",
+    "price": 399.99,
+    "thumbnail": "https://picsum.photos/200",
+    "code": "COREI712700K",
+    "stock": 70,
+    "category": "CPU",
+    "status": true
+  },
+  {
+    "id": 17,
+    "title": "NVIDIA GeForce RTX 3070 Ti",
+    "description": "NVIDIA GPU manufacturer",
+    "price": 599.99,
+    "thumbnail": "https://picsum.photos/200",
+    "code": "RTX3070TI",
+    "stock": 25,
+    "category": "GPU",
+    "status": true
+  },
+  {
+    "id": 18,
+    "title": "Kingston HyperX Fury 16GB",
+    "description": "Kingston RAM manufacturer",
+    "price": 69.99,
+    "thumbnail": "https://picsum.photos/200",
+    "code": "HYPERXFURY16GB",
+    "stock": 80,
+    "category": "RAM",
+    "status": true
+  },
+  {
+    "id": 19,
+    "title": "ASRock B450M PRO4",
+    "description": "ASRock MOTHER manufacturer",
+    "price": 79.99,
+    "thumbnail": "https://picsum.photos/200",
+    "code": "B450MPRO4",
+    "stock": 50,
+    "category": "MOTHER",
+    "status": true
+  },
+  {
+    "id": 20,
+    "title": "EVGA 600 BQ",
+    "description": "EVGA PSU manufacturer",
+    "price": 59.99,
+    "thumbnail": "https://picsum.photos/200",
+    "code": "600BQ",
+    "stock": 35,
+    "category": "PSU",
+    "status": true
+  }
+]

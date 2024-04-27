@@ -1,0 +1,30 @@
+<form action="/api/v1/jwt/login" method="post">
+    <label class="form-label">Email</label>
+    <input class="form-control" type="email" name="email" required>
+    <br>
+    <label class="form-label">Password</label>
+    <input class="form-control" type="password" name="password" required>
+    <br>
+    <div class="mb-2">
+        <a href="/api/v2/jwt/login-github" class="btn btn-outline-secondary btn-lg"
+            style="display: flex; flex-direction: row; justify-content: center; align-items: center;">
+            <img src="https://i.ibb.co/GMN9XMh/github.png" width="30px" alt="github"><b
+                style="margin-left: 10px;">GitHub</b>
+        </a>
+    </div>
+    <div>
+        <a href="/api/v2/jwt/login-google" class="btn btn-outline-secondary btn-lg"
+            style="display: flex; flex-direction: row; justify-content: center; align-items: center;">
+            <img src="https://i.ibb.co/DCBLnY6/google.png" width="30px" alt="github"><b
+                style="margin-left: 10px;">Google</b>
+        </a>
+    </div>
+    <br>
+    <div style="display: flex; justify-content: center">
+        <a href="/reset">Forgot password?</a>
+    </div>
+    <br>
+    <button class="btn btn-primary" style="width: 100%;" type="submit">Log</button>
+    <hr>
+    <a class="btn btn-primary" style="width: 100%;" href="/register">Register</a>
+</form>
