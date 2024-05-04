@@ -1,7 +1,7 @@
 {
   "name": "coderhouse_backend",
   "version": "1.0.0",
-  "description": "Proyecto final",
+  "description": "Octavo Desafio",
   "main": "app.js",
   "type": "module",
   "scripts": {
