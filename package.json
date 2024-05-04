@@ -9,7 +9,7 @@
     "start": "node src/app.js",
     "dev": "nodemon src/app.js"
   },
-  "author": "JEmperador",
+  "author": "Verushka Fernandez",
   "license": "ISC",
   "devDependencies": {
     "bcrypt": "^5.1.1",
